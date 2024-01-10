@@ -1,0 +1,44 @@
+.weather-icon {
+  width: 43px;
+  height: 43px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.hourly {
+  display: flex;
+  overflow-x: auto;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.hourly > div {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.hourly-scrollable {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.daily {
+  display: flex;
+  overflow-x: auto;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.daily > div {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.daily-scrollable {
+  max-height: 200px;
+  overflow-y: auto;
+}
