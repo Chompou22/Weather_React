@@ -16,9 +16,9 @@ To run this project locally, follow these steps:
 Clone the repository to your local machine:
 
 ```
-git clone https://github.com/Chompou22/Weather_App_v2.git
+git clone https://github.com/Chompou22/Weather_React.git
 
-cd Weather_App_v2
+cd Weather_React
 
 npm install
 ```
